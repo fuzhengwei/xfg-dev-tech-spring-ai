@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: xfg-dev-tech-apisix
+  profiles:
+    active: dev

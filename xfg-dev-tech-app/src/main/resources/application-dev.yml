@@ -1,0 +1,17 @@
+server:
+  port: 8090
+
+spring:
+  ai:
+    openai:
+      base-url: https://api.openai.com/ #需要可访问的 apihost
+      api-key: sk-oLkakcax33mJl628D3A533Fd67A24602******
+    huggingface:
+      chat:
+        url: https://api-inference.huggingface.co/
+        api-key: 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
+
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml
